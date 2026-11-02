@@ -311,6 +311,71 @@ export default {
     selectLanguage: '言語を選択'
   },
 
+  // Backlog
+  backlog: {
+    title: 'バックオーダー管理',
+    description: '在庫不足の追跡と解消',
+    loading: 'バックオーダーを読み込み中...',
+    noItems: 'バックオーダーはありません - すべての注文を履行できます！',
+    totalItems: 'バックオーダー総数',
+    priority: {
+      high: '優先度: 高',
+      medium: '優先度: 中',
+      low: '優先度: 低'
+    },
+    card: {
+      title: 'バックオーダー一覧'
+    },
+    table: {
+      orderId: '注文ID',
+      sku: 'SKU',
+      itemName: '商品名',
+      quantityNeeded: '必要数量',
+      quantityAvailable: '利用可能数量',
+      shortage: '不足',
+      daysDelayed: '遅延日数',
+      priority: '優先度',
+      unitsShort: '{count}個不足',
+      days: '{count}日'
+    },
+    loadError: 'バックオーダーの読み込みに失敗しました: {message}'
+  },
+
+  // Reports
+  reports: {
+    title: 'パフォーマンスレポート',
+    description: '四半期ごとの業績指標と月次トレンドを表示',
+    loading: 'レポートを読み込み中...',
+    loadError: 'レポートの読み込みに失敗しました: {message}',
+    noData: '選択したフィルターに該当するデータがありません',
+    notAvailable: 'N/A',
+    quarterly: {
+      title: '四半期パフォーマンス',
+      quarter: '四半期',
+      totalOrders: '総注文数',
+      totalRevenue: '総売上',
+      avgOrderValue: '平均注文額',
+      fulfillmentRate: '履行率'
+    },
+    trend: {
+      title: '月次売上トレンド'
+    },
+    mom: {
+      title: '前月比分析',
+      month: '月',
+      orders: '注文数',
+      revenue: '売上',
+      change: '増減',
+      growthRate: '成長率'
+    },
+    stats: {
+      totalRevenue: '総売上（年初来）',
+      avgMonthlyRevenue: '月平均売上',
+      totalOrders: '総注文数（年初来）',
+      bestQuarter: '最高業績の四半期'
+    }
+  },
+
   // Common
   common: {
     loading: '読み込み中...',
